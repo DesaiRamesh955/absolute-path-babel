@@ -1,0 +1,10 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "@Dashboard": "./src/components/Dashboard"
+        }
+      }]
+    ]
+  }

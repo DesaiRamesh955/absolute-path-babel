@@ -3,4 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
   min-height: 100vh !important;
+  background-color: rgb(117, 223, 135);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap:20;
 }

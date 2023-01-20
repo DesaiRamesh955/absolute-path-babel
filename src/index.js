@@ -1,8 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App";
 import { ConfigProvider } from "antd";
 import "antd/dist/reset.css";
+import App from "./App"
 import "./index.css";
 
 window.renderDOM = (htmlElement = null) => {
@@ -25,3 +25,4 @@ window.renderDOM = (htmlElement = null) => {
     </React.StrictMode>
   );
 };
+renderDOM("#test")
