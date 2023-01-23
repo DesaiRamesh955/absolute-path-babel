@@ -3,10 +3,10 @@
 # dependencies
 /node_modules
 /.parcel-cache
-
+/build
 # testing
 /coverage
-/build
+
 # production
 
 
