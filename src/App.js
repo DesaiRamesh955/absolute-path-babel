@@ -1,7 +1,7 @@
-import Dashboard from "@Dashboard"
+
+import Dashboard from "@Dashboard";
 const App = () => {
   
-
   return (
     <Dashboard />
   );

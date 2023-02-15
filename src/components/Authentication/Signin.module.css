@@ -1,0 +1,13 @@
+.signinContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100vh;
+}
+.signinForm {
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 30%;
+  background-color: #ffffff;
+}

@@ -2,8 +2,11 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { ConfigProvider } from "antd";
 import "antd/dist/reset.css";
-import App from "./App"
 import "./index.css";
+import {Router} from "./Route"
+
+import {RouterProvider} from "react-router-dom";
+
 
 window.renderDOM = (htmlElement = null) => {
   const elem = htmlElement
@@ -20,7 +23,7 @@ window.renderDOM = (htmlElement = null) => {
           },
         }}
       >
-        <App />
+        <RouterProvider router={Router} />
       </ConfigProvider>
     </React.StrictMode>
   );

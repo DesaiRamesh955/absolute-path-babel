@@ -3,7 +3,8 @@
       ["module-resolver", {
         "root": ["./"],
         "alias": {
-          "@Dashboard": "./src/components/Dashboard"
+          "@Dashboard": "./src/components/Dashboard",
+          "@Authentication": "./src/components/Authentication"
         }
       }]
     ]
